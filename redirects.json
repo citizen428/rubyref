@@ -1,0 +1,14 @@
+{
+  "awesome": "https://github.com/markets/awesome-ruby",
+  "book": "http://ruby-doc.com/docs/ProgrammingRuby/",
+  "capi": "https://docs.ruby-lang.org/en/trunk/extension_rdoc.html",
+  "faq": "https://www.ruby-lang.org/en/documentation/faq/",
+  "hard": "http://ruby.learncodethehardway.org/",
+  "koans": "http://rubykoans.com/",
+  "monk": "http://rubymonk.com/",
+  "rails": "http://api.rubyonrails.org",
+  "ruby": "http://ruby-doc.org/core-2.5.0/",
+  "stdlib": "http://ruby-doc.org/stdlib/",
+  "style": "https://github.com/bbatsov/ruby-style-guide",
+  "try": "http://tryruby.org/"
+}
