@@ -1,0 +1,23 @@
+<header>
+  <div class="container">
+    <h1>rubyref.net</h1>
+  </div>
+</header>
+
+<div class="container">
+  <p>Easier navigation to <a href="https://www.ruby-lang.org">Ruby</a> documentation by use of
+  subdomain redirects.</p>
+  <p>Found a broken link or want to add another redirect?
+  Make a pull request <a href="https://github.com/citizen428/rubyref">here</a>.</p>
+
+  <h2 id="current-redirects">Current redirects:</h2>
+
+  <% data.redirects.each do |cname, target| %>
+    <%= cname %>.rubyref.net → <a href="<%= target %>"><%= target %></a><br/>
+  <% end %>
+</div>
+
+<footer>
+  Made by Michael Kohl (<a href="https://twitter.com/citizen428">@citizen428</a>) /
+  Inspired by <a href="https://rustref.com">rustref.com</a>
+</footer>
