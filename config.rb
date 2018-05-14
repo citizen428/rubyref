@@ -42,8 +42,13 @@ proxy '/_redirects', '/redirects', ignore: true
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-  activate :minify_css
+  activate :minify_css, inline: true
   activate :minify_html do |html|
     html.remove_intertag_spaces = true
   end
+end
+
+# Inlined, so we don't need to deploy this
+after_build do |builder|
+  builder.thor.remove_dir 'build/stylesheets/'
 end
