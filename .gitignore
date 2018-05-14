@@ -3,6 +3,5 @@
 .DS_Store
 .sass-cache
 build/
-.sass-cache
+.sass-cache/
 .env
-
