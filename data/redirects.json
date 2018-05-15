@@ -7,7 +7,7 @@
   "koans": "http://rubykoans.com/",
   "monk": "http://rubymonk.com/",
   "rails": "http://api.rubyonrails.org",
-  "ruby": "http://ruby-doc.org/core-2.5.0/",
+  "ruby": "http://ruby-doc.org/core",
   "stdlib": "http://ruby-doc.org/stdlib/",
   "style": "https://github.com/bbatsov/ruby-style-guide",
   "try": "http://tryruby.org/"
