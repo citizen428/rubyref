@@ -4,6 +4,7 @@
   "capi": "https://docs.ruby-lang.org/en/trunk/extension_rdoc.html",
   "faq": "https://www.ruby-lang.org/en/documentation/faq/",
   "hard": "http://ruby.learncodethehardway.org/",
+  "jruby": "https://github.com/jruby/jruby/wiki",
   "koans": "http://rubykoans.com/",
   "monk": "http://rubymonk.com/",
   "mruby": "http://mruby.org/docs/api/",
